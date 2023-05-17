@@ -1,14 +1,19 @@
 # MicroServices_miniProject
 Microservices avec REST, GraphQL et gRPC
-Description
+
+
+#Description
 This project consists of two microservices: "Product" and "User". The microservices are built using REST and GraphQL for communication between the client and the API gateway, and gRPC for communication between the API gateway and the microservices. The project includes the following files:
+
 
 product.proto: Protocol Buffers definition file for the "Product" microservice.
 user.proto: Protocol Buffers definition file for the "User" microservice.
 resolver.js: GraphQL resolver functions for handling requests related to the "Product" and "User" entities.
 schema.js: GraphQL schema definition file that outlines the available queries and mutations for the API.
 
-Architecture Overview
+#Architecture Overview
+
+
 The chosen architecture provides several benefits and conveniences:
 
 Microservices: The microservices architecture allows for modular and independent development of the "Product" and "User" functionalities. Each microservice can be developed, tested, and scaled separately, resulting in better maintainability and scalability of the overall system.
@@ -17,7 +22,7 @@ REST and GraphQL: The RESTful API between the client and the API gateway provide
 
 gRPC: The use of gRPC between the API gateway and the microservices offers efficient and high-performance communication using Protocol Buffers. gRPC supports bi-directional streaming and uses binary serialization, which results in faster data transfer compared to traditional REST APIs. Additionally, gRPC provides strong typing and generates client and server stubs automatically based on the defined Protobuf messages, making it easier to work with the microservices.
 
-Installation and Setup
+#Installation and Setup
 To run the project locally, follow these steps:
 
 Clone the repository: git clone https://github.com/your/repository.git
