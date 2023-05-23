@@ -8,8 +8,14 @@ This project consists of two microservices: "Product" and "User". The microservi
 
 
 product.proto: Protocol Buffers definition file for the "Product" microservice.
+
+
 user.proto: Protocol Buffers definition file for the "User" microservice.
+
+
 resolver.js: GraphQL resolver functions for handling requests related to the "Product" and "User" entities.
+
+
 schema.js: GraphQL schema definition file that outlines the available queries and mutations for the API.
 
 #Architecture Overview
