@@ -40,33 +40,54 @@ gRPC: The use of gRPC between the API gateway and the microservices offers effic
 To run the project locally, follow these steps:
 
 Clone the repository: git clone https://github.com/your/repository.git
+
+
 Install the required dependencies: npm install
+
+
 Configure the necessary environment variables: cp .env.example .env and update the values accordingly.
+
+
 Start the microservices: npm run start:product and npm run start:user.
+
+
 Start the API gateway: npm run start:gateway.
 
+
 Access the GraphQL playground at http://localhost:3000/graphql to interact with the API.
+
 Usage
+
+
 The API provides the following functionality:
 
 Product Microservice:
 
 Retrieve a list of products
+
 Get product details by ID
+
 Create a new product
+
 Update product information
+
 Delete a product
+
 User Microservice:
 
 Retrieve a list of users
+
 Get user details by ID
+
 Create a new user
+
 Update user information
+
 Delete a user
+
 You can use the GraphQL playground to execute queries and mutations against the API.
 
 
 
-Contact
-If you have any questions or suggestions, please feel free to reach out to us at houda.bensalah@polytechnicien.tn.
+
 
