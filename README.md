@@ -29,7 +29,7 @@ REST and GraphQL: The RESTful API between the client and the API gateway provide
 
 gRPC: The use of gRPC between the API gateway and the microservices offers efficient and high-performance communication using Protocol Buffers. gRPC supports bi-directional streaming and uses binary serialization, which results in faster data transfer compared to traditional REST APIs. Additionally, gRPC provides strong typing and generates client and server stubs automatically based on the defined Protobuf messages, making it easier to work with the microservices.
 
-![image](https://github.com/houda2024/MicroServices_miniProject/assets/107250916/d02fa053-f05b-4838-a7e1-a1b411bc3e2b)
+
 ![Untitled](https://github.com/houda2024/MicroServices_miniProject/assets/107250916/a3cb3b47-ca34-4ac6-8810-a4d325964968)
 
 
